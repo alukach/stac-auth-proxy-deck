@@ -1,28 +1,84 @@
-A quick example set of slides
+stac-auth-proxy <!-- .element: class="r-fit-text" -->
 
 ---
 
-Checkout `slides.md` to see how they were written.
+anthony lukach
+
+cloud engineer@developmentseed
 
 ---
 
-## Navigate vertically
+## why?
 
-Grouping tabs vertically is a good way to discuss a single idea
+auth story is still unsolved for stac
 
-_hint: press <kbd>↓</kdb>_<!-- .element: class="small" -->
+---
+
+<small>why...</small>
+
+many stac backends
+
+---
+
+<small>why...</small>
+
+
+many auth strategies
+
+---
+
+<small>why...</small>
+
+varied auth needs
 
 --
 
-This slide appears below the first slide
+<small>why... (auth needs)</small>
 
-_hint: press <kbd>→</kdb>_<!-- .element: class="small" -->
+
+entirely private catalogs
+
+--
+
+<small>why... (auth needs)</small>
+
+public catalogs, rectricted edits
+
+NOTE: useful for data editors who need to make one-off edits to a record
+
+--
+
+<small>why... (auth needs)</small>
+
+subset of data is private
+
+NOTE: i.e. private collections / items
+
+--
+
+<small>why... (auth needs)</small>
+
+asset access
+
+NOTE: 
+
+typically, STAC is merely for the discovery of assets
+
+it is the assets themselves that matter
+
+how does we marry asset access policies with our STAC access policies?
 
 ---
 
-## Navigate horizontally
+## what?
 
-This slide appears to the right of the first slide
+auth _before_ your stac api
+
+--
+
+not solving everyones needs _(yet)_
+
+targetting oidc compliant auth servers
 
 ---
 
