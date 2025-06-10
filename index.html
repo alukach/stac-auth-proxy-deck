@@ -79,18 +79,35 @@
     <script src="plugin/notes/notes.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
+      // Initialize Mermaid
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: 'dark',
+        securityLevel: 'loose'
+      });
+
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
         transition: "none",
         // controls: false,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+
+      // Initialize Mermaid diagrams when slides are loaded
+      Reveal.on('ready', function() {
+        mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+      });
+
+      // Re-initialize Mermaid diagrams when slides change
+      Reveal.on('slidechanged', function() {
+        mermaid.init(undefined, document.querySelectorAll('.mermaid'));
       });
     </script>
   </body>
