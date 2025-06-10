@@ -10,7 +10,7 @@ cloud engineer@developmentseed
 
 # why?
 
-auth story is still unsolved for stac ecosystem
+auth story is still unsolved for the STAC ecosystem
 
 --
 
@@ -50,7 +50,7 @@ NOTE:
 ## route level auth
 
 - entirely private catalogs
-- public catalogs, rectricted edits (useful for data editors who need to make one-off edits to a record)
+- public catalogs, restricted edits (useful for data editors who need to make one-off edits to a record)
 
 ## record-level auth
 
@@ -61,7 +61,7 @@ NOTE:
 
 - typically, STAC is merely for the discovery of assets
 - it is the assets themselves that matter
-- how does we marry asset access policies with our STAC access policies?
+- how do we marry asset access policies with our STAC access policies?
 
 ---
 
@@ -78,7 +78,7 @@ target the most common needs
 
 # how?
 
-embrace standards to maximize compatability
+embrace standards to maximize compatibility
 
 - auth: [oidc](https://openid.net/specs/openid-connect-core-1_0-final.html)
 - record-level filtering: [filter extension](https://github.com/stac-api-extensions/filter)
