@@ -362,7 +362,7 @@ simple or complex filter logic <!-- .element: class="fragment" -->
 
 ## diy filter builders
 
-```py
+```py[|7|8|10|4|]
 from dataclasses import dataclass
 from typing import Any, Alias
 
@@ -389,7 +389,7 @@ ITEM_FILTER_KWARGS={"api_url": "https://microsoft.com"}
 
 ## calling a filter builder
 
-```python
+```python[|2-8|9|11|12]
 ctx = {
     "req": {
         "path": request.url.path,
