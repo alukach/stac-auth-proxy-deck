@@ -406,7 +406,7 @@ expr = cql2.Expr(cql2_filter)
 
 --
 
-<!-- .slide: data-background-iframe="http://developmentseed.org/cql2-rs/latest/" data-background-interactive style="color:black" -->
+<!-- .slide: data-background-iframe="https://developmentseed.org/cql2-rs/latest/" data-background-interactive style="color:black" -->
 
 --
 
