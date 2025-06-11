@@ -80,8 +80,8 @@ target the most common needs
 
 target the most common systems
 
-## any modern auth server <!-- .element: class="fragment" -->
-## any modern stac api <!-- .element: class="fragment" -->
+- any modern auth server <!-- .element: class="fragment" -->
+- any modern stac api <!-- .element: class="fragment" -->
 
 ---
 
