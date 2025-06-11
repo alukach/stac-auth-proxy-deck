@@ -74,11 +74,20 @@ target the most common needs
 - record-level auth <!-- .element: class="fragment" -->
 - asset access via signed-urls <!-- .element: class="fragment" -->
 
+--
+
+<small>what: interoperability goals...</small>
+
+target the most common systems
+
+## any modern auth server <!-- .element: class="fragment" -->
+## any modern stac api <!-- .element: class="fragment" -->
+
 ---
 
 # how?
 
-embrace standards to maximize compatibility
+embrace open standards to maximize compatibility
 
 - auth: [oidc](https://openid.net/specs/openid-connect-core-1_0-final.html)
 - record-level filtering: [filter extension](https://github.com/stac-api-extensions/filter)
